@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+menu,
+nav,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    border: 0;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "static-markup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp",
+    "build:html": "gulp html",
+    "build:js": "gulp scripts",
+    "build:graphics": "gulp graphics"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-webp": "^5.0.0"
+  }
+}
